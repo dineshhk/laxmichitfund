@@ -1,0 +1,49 @@
+h1 {
+  color: limegreen;
+  letter-spacing: 7pt;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  width: 800px;
+  filter: drop-shadow(5px 5px 2px grey);
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+
+.heading {
+  font-family: Impact, Sans-Serif;
+}
+
+.veryimportant {
+  background-color: yellow;
+}
+
+.stuff {
+  color: red;
+}
+
+.veryimportant.stuff {
+  font-style: italic;
+}
+
+.veryimportant.example.stuff {
+  text-decoration: underline;
+}
